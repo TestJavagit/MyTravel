@@ -14,7 +14,7 @@ import java.io.IOException;
  * @author wkj
  * @create 2019-04-28-下午9:09
  */
-@WebServlet(name = "ActiveUserServlet")
+@WebServlet("/activeUserServlet")
 public class ActiveUserServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
